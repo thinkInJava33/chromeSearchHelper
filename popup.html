@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>搜索助手</title>
+    <meta charset="utf-8">
+    <link href="popup.css" rel = "stylesheet" type = "text/css"/>
+  </head>
+  <body>
+<div>
+  <input type="text" placeholder="请输入搜索内容" id="search-input">
+</div>
+    <template id="li_template">
+      <li>
+        <a>描述
+          <input class="description">     链接</input>
+          <input class="url"></input>
+          <button type="button" id="addRow">+</button>
+          <button type="button" id="deleteRow">-</button>
+          <button type="button" id="search">-></button>
+        </a>
+      </li>
+    </template>
+    <div id="main-container" style="width:600px">
+      <h1>搜索助手</h1>
+      <ul></ul>
+      <button type="button" id="saveBtn">保存</button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
