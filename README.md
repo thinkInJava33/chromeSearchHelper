@@ -12,6 +12,6 @@ easier to search
 翻译：https://fanyi.baidu.com/#zh/en/%s
 
 其中%s 为占位符，即被替换为搜索内容的关键字
-保存后，可以通过插件窗口进行查询，也可以通过右键菜单直接跳转
+保存后，可以通过插件窗口进行查询，也可以通过右键菜单直接跳转，效果如下：
+<img width="1114" alt="image" src="https://github.com/thinkInJava33/chromeSearchHelper/assets/20836078/48ef2d10-0779-47c9-bd4a-d50b00a423f0">
 
-![Uploading image.png…]()
